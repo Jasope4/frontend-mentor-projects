@@ -1,0 +1,42 @@
+.icon{
+    background: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background: linear-gradient(to bottom, #2C012C,#F5E9FF); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('assets/images/background-pattern-desktop.svg');
+    background-repeat: no-repeat;
+}
+.faq-container{
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0.1);
+    width: 350px;
+}
+h2{
+    text-align: center;
+    color: #5A007A;
+}
+.faq{
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0;
+}
+.question{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    font-weight: bold;
+}

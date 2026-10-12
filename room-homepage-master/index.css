@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "League Spartan",sans-serif;
+    /* overflow-x: hidden; */
+
+}
+header{
+    position: absolute;
+    top: 40px;
+    left: 60px;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    color: white;
+}
+header h1{
+    font-weight: 700;
+    font-size: 1.6rem;
+}
+nav{
+    display: flex;
+    gap: 40px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    position: relative;
+    font-size: 0.9rem;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    height: 80vh;
+    width: 85rem;
+}
+.left{
+    background: url(images/desktop-image-hero-1.jpg) ;
+    background-repeat: none;
+}
+.slider-control{
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 7.2rem;
+    margin-left: 51rem;
+    display: flex;
+}
+.slider-control button{
+    width: 50px;
+    height: 50px;
+    border: none;
+    background: black;
+    color: white;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+.slider-control button:last-child{
+    background: hsl(0, 0%, 27%);
+}
+.right{
+    background: white;
+    display: flex;
+    padding: 180px 80px 100px 60px;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 10px;
+}
+.right h2{
+    font-size: 2.5rem;
+    line-height: 1.2;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.right p{
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #777;
+    font-size: 0.95rem;
+
+}
+.Shop{
+    font-size: 0.8rem;
+    letter-spacing: 0.5em;
+    color: #777;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 50px;
+}
+.Shop span{
+    display: inline-block;
+    margin-left: 15px;
+
+}
+.bottom{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 300px;
+}
+.bottom .img1{
+    background: url(images/image-about-dark.jpg) center/cover no-repeat;
+}
+.bottom .text {
+    background: white;
+    padding: 50px 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.bottom .text h3{
+    font-size: 0.9rem;
+    letter-spacing: 0.2em;
+    margin-bottom: 20px;
+}
+.bottom .text p{
+    font-size: 0.85rem;
+    color: #777;
+    line-height: 1.6;
+
+}
+.bottom .img2{
+    background: url(images/image-about-light.jpg) center/cover no-repeat;
+}
